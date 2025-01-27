@@ -4,7 +4,7 @@ This script processes commands listed in a file and executes them sequentially. 
 
 ## Features
 
-- **File-based Command Processing**: Reads commands from a specified file (in NNOSLANG format, abbreviated as NL) and executes them.
+- **File-based Command Processing**: Reads commands from a specified file (in NEXLANG format, abbreviated as NL) and executes them.
 - **Supported Commands**:
   - `list`: Lists files in the current directory.
   - `list A`: Lists all files, including hidden ones.
@@ -28,7 +28,7 @@ This script processes commands listed in a file and executes them sequentially. 
 
 2. Run the script, passing the NL file as an argument:
    ```bash
-   ./nnoslang.sh commands.nl
+   ./nexlang.sh commands.nl
    ```
 
 3. The script will execute the commands in the order they are listed in the file.
@@ -37,9 +37,9 @@ This script processes commands listed in a file and executes them sequentially. 
 
 - Ensure the script is executable. You can make it executable with:
   ```bash
-  chmod +x nnoslang.sh
+  chmod +x nexlang.sh
   ```
-- The command file must exist, be in the NNOSLANG format, and contain valid commands.
+- The command file must exist, be in the NEXLANG format, and contain valid commands.
 
 ## Error Messages
 
@@ -69,7 +69,7 @@ exit
 ```
 Run the script:
 ```bash
-./yourscript.sh example_commands.nl
+./nexlang.sh example_commands.nl
 ```
 Output:
 ```bash
